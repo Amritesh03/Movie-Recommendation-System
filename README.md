@@ -3,8 +3,7 @@
 This project is a content-based movie recommendation system built using Python and machine learning techniques. It suggests movies to users based on similarities in movie metadata such as genres, cast, crew, and storyline.
 
 🚀 Features
-
-• Recommend top similar movies for a given movie.
+- Recommend top similar movies for a given movie.
 • Uses cosine similarity for recommendation.
 • Fetches movie posters dynamically using TMDb API.
 • Interactive Streamlit web application for easy use.
