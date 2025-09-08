@@ -14,15 +14,6 @@ This project is a content-based movie recommendation system built using Python a
 - Web App: Streamlit
 - API: The Movie Database (TMDb) API
 
-📂 Project Structure
-Movie_Recommendation_System/
-- Movie_Recommendation_system.ipynb   # Jupyter notebook (model building + processing)
-- app.py                              # Streamlit web application
-- tmdb_5000_movies.csv                # Dataset
-- Report on Movie Recommendation system     # report
-- README.md                           # Project documentation
-
-
 ⚙️ Installation & Setup
 
 1.Clone this repository:
