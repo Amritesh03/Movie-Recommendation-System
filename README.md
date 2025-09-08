@@ -9,27 +9,24 @@ This project is a content-based movie recommendation system built using Python a
 - Interactive Streamlit web application for easy use.
 
 🛠️ Tech Stack
-
 - Python (Data processing and backend)
 - Libraries: pandas, numpy, scikit-learn, pickle, requests
 - Web App: Streamlit
 - API: The Movie Database (TMDb) API
 
 📂 Project Structure
-
 Movie_Recommendation_System/
-│── Movie_Recommendation_system.ipynb   # Jupyter notebook (model building + processing)
-│── app.py                              # Streamlit web application
-│── movies.pkl                          # Pickle file storing movie data
-│── similarity.pkl                      # Pickle file storing similarity matrix
-│── README.md                           # Project documentation
+│ ── Movie_Recommendation_system.ipynb   # Jupyter notebook (model building + processing)
+│ ── app.py                              # Streamlit web application
+│ ── movies.pkl                          # Pickle file storing movie data
+│ ── similarity.pkl                      # Pickle file storing similarity matrix
+│ ── README.md                           # Project documentation
 
 
 ⚙️ Installation & Setup
-
 1.Clone this repository:
 
-git clone https://github.com/your-username/Movie_Recommendation_System.git
+git clone https://github.com/Amritesh03/Movie_Recommendation_System.git
 cd Movie_Recommendation_System
 
 2.Install required dependencies:
@@ -71,5 +68,4 @@ If you search for Inception, recommendations may include:
    - Memento
 
 📜 License
-
 This project is licensed under the MIT License.
