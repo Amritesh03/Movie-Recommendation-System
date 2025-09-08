@@ -16,11 +16,11 @@ This project is a content-based movie recommendation system built using Python a
 
 📂 Project Structure
 Movie_Recommendation_System/
-│ ── Movie_Recommendation_system.ipynb   # Jupyter notebook (model building + processing)
-│ ── app.py                              # Streamlit web application
-│ ── movies.pkl                          # Pickle file storing movie data
-│ ── similarity.pkl                      # Pickle file storing similarity matrix
-│ ── README.md                           # Project documentation
+── Movie_Recommendation_system.ipynb   # Jupyter notebook (model building + processing)
+── app.py                              # Streamlit web application
+── movies.pkl                          # Pickle file storing movie data
+── similarity.pkl                      # Pickle file storing similarity matrix
+── README.md                           # Project documentation
 
 
 ⚙️ Installation & Setup
