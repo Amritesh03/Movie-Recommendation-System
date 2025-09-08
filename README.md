@@ -25,7 +25,6 @@ Movie_Recommendation_System/
 
 ⚙️ Installation & Setup
 1.Clone this repository:
-
 git clone https://github.com/Amritesh03/Movie_Recommendation_System.git
 cd Movie_Recommendation_System
 
