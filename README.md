@@ -4,16 +4,16 @@ This project is a content-based movie recommendation system built using Python a
 
 🚀 Features
 - Recommend top similar movies for a given movie.
-• Uses cosine similarity for recommendation.
-• Fetches movie posters dynamically using TMDb API.
-• Interactive Streamlit web application for easy use.
+- Uses cosine similarity for recommendation.
+- Fetches movie posters dynamically using TMDb API.
+- Interactive Streamlit web application for easy use.
 
 🛠️ Tech Stack
 
-• Python (Data processing and backend)
-• Libraries: pandas, numpy, scikit-learn, pickle, requests
-• Web App: Streamlit
-• API: The Movie Database (TMDb) API
+- Python (Data processing and backend)
+- Libraries: pandas, numpy, scikit-learn, pickle, requests
+- Web App: Streamlit
+- API: The Movie Database (TMDb) API
 
 📂 Project Structure
 
@@ -27,52 +27,48 @@ Movie_Recommendation_System/
 
 ⚙️ Installation & Setup
 
-1. Clone this repository:
+1.Clone this repository:
 
 git clone https://github.com/your-username/Movie_Recommendation_System.git
 cd Movie_Recommendation_System
 
-2. Install required dependencies:
+2.Install required dependencies:
 pip install -r requirements.txt
 
 3.Run the Streamlit app:
 streamlit run app.py
 
 🎥 Usage
-
-• Enter/select a movie in the app.
-• Get top 5 recommended movies with posters.
-• Explore visually appealing recommendations.
+- Enter/select a movie in the app.
+- Get top 5 recommended movies with posters.
+- Explore visually appealing recommendations.
 
 📊 Workflow
+1.Data Preprocessing
+   - Clean and merge datasets.
+   - Extract features like genre, keywords, cast, crew.
+   - Convert text to vectors using CountVectorizer.
 
-1. Data Preprocessing
-   • Clean and merge datasets.
-   • Extract features like genre, keywords, cast, crew.
-   • Convert text to vectors using CountVectorizer.
+2.Similarity Calculation
+   - Use cosine similarity to measure closeness between movies.
 
-2. Similarity Calculation
-   • Use cosine similarity to measure closeness between movies.
-
-3. Deployment
-   • Save processed data (movies.pkl) and similarity matrix (similarity.pkl) for fast recommendations.
-   • Build an interactive UI with Streamlit.
+3.Deployment
+   - Save processed data (movies.pkl) and similarity matrix (similarity.pkl) for fast recommendations.
+   - Build an interactive UI with Streamlit.
 
 🔑 API Key
-
 To fetch posters from TMDb:
-   • Create an account on TMDb
-   • Generate an API key.
-   • Replace the API key inside app.py.
+   - Create an account on TMDb
+   - Generate an API key.
+   - Replace the API key inside app.py.
 
 📌 Example
-
 If you search for Inception, recommendations may include:
-   • Interstellar
-   • The Dark Knight
-   • Shutter Island
-   • The Prestige
-   • Memento
+   - Interstellar
+   - The Dark Knight
+   - Shutter Island
+   - The Prestige
+   - Memento
 
 📜 License
 
