@@ -1,20 +1,20 @@
-🎬 Movie Recommendation System
+### 🎬 Movie Recommendation System
 
 This project is a content-based movie recommendation system built using Python and machine learning techniques. It suggests movies to users based on similarities in movie metadata such as genres, cast, crew, and storyline.
 
-🚀 Features
+#### 🚀 Features
 - Recommend top similar movies for a given movie.
 - Uses cosine similarity for recommendation.
 - Fetches movie posters dynamically using TMDb API.
 - Interactive Streamlit web application for easy use.
 
-🛠️ Tech Stack
+#### 🛠️ Tech Stack
 - Python (Data processing and backend)
 - Libraries: pandas, numpy, scikit-learn, pickle, requests
 - Web App: Streamlit
 - API: The Movie Database (TMDb) API
 
-⚙️ Installation & Setup
+#### ⚙️ Installation & Setup
 
 1.Clone this repository:
 
@@ -27,12 +27,12 @@ pip install -r requirements.txt
 3.Run the Streamlit app:
 streamlit run app.py
 
-🎥 Usage
+#### 🎥 Usage
 - Enter/select a movie in the app.
 - Get top 5 recommended movies with posters.
 - Explore visually appealing recommendations.
 
-📊 Workflow
+#### 📊 Workflow
 1.Data Preprocessing
    - Clean and merge datasets.
    - Extract features like genre, keywords, cast, crew.
@@ -45,13 +45,13 @@ streamlit run app.py
    - Save processed data (movies.pkl) and similarity matrix (similarity.pkl) for fast recommendations.
    - Build an interactive UI with Streamlit.
 
-🔑 API Key
+#### 🔑 API Key
 To fetch posters from TMDb:
    - Create an account on TMDb
    - Generate an API key.
    - Replace the API key inside app.py.
 
-📌 Example
+#### 📌 Example
 If you search for Inception, recommendations may include:
    - Interstellar
    - The Dark Knight
@@ -59,5 +59,9 @@ If you search for Inception, recommendations may include:
    - The Prestige
    - Memento
 
-📜 License
-This project is licensed under the MIT License.
+#### 👨‍💻 Author
+**Amritesh Kumar Dwivedi**
+
+📧 dwivediamritesh37@gmail.com
+
+🔗 www.linkedin.com/in/amritesh-kumar-dwivedi-381896292
